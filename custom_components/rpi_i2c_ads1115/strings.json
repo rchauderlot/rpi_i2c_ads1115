@@ -1,0 +1,30 @@
+{
+    "config": {
+	"step": {
+	    "user" : {
+		"title": "Parameters",
+		 "data": {
+		    "name": "Nombre",
+		    "address": "Dirección",
+		    "pin": "Pin",
+		    "differential_pin": "Pin de Referencia",
+		    "gain": "Ganancia",
+		    "pin_differential_equal": "El Pin y el Pin de Referencia no pueden ser iguales."
+		 },
+		 "data": {
+		    "name": "Id visible de la integración",
+		    "address": "Dirección",
+		    "pin": "Pin de medida",
+		    "differential_pin": "Pin de Referencia, no puede ser el mismo que el pin de medida",
+		    "gain": "Ganancia",
+		 },
+	    }
+	},
+	"abort": {
+	    "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+	},
+	"errors": {
+	    "pin_differential_equal": "El Pin y el Pin de Referencia no pueden ser iguales."
+	}
+    }
+}

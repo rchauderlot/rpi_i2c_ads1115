@@ -1,0 +1,11 @@
+{
+    "domain": "rpi_i2c_ads1115",
+    "name": "ADS1115 (in a raspberrypi)",
+    "codeowners": [ "@rchauderlot" ],
+    "dependencies": [ ],
+    "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
+    "iot_class": "local_polling",
+    "requirements": [ "adafruit-circuitpython-ads1x15", "RPi.GPIO" ],
+    "version": "0.0.1",
+    "config_flow": true
+}

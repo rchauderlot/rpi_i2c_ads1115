@@ -1,0 +1,5 @@
+{
+  "name": "Adafruit ADS1115 in a rpi",
+  "render_readme": true,
+  "iot_class": "local_polling"
+}
